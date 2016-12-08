@@ -2,6 +2,7 @@ let totalGem = randomNumberOfGems
 let expert = Expert()
 let character = Character()
 var gem = 0
+
 world.place(expert, facing: .north, atColumn: 1, row: 4)
 world.place(character, facing: .south, atColumn: 4, row: 6)
 func turnLock(up: Bool, numbersOfTimes: Int) {
